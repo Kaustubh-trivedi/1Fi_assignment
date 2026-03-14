@@ -51,7 +51,7 @@ Create `.env` file:
 
 ```
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/snapmint
+MONGO_URI=extraced from env
 ```
 
 Run MongoDB locally.
