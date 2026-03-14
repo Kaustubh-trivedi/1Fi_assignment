@@ -10,6 +10,8 @@ app.use(cors());
 
 app.use(express.json());
 
+app.get("/", (req, res) => { res.json({ msg: "APP is running." }) })
+
 app.use("/api", productRoutes);
 
 app.use(errorMiddleware);
